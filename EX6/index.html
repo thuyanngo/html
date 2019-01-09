@@ -2,16 +2,20 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="./style.css"/>
+        <link href="https://fonts.google.com/">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         
     </head>
     <body>
         <header>
-            <nav>
+            <div class="container">
                 <a href="#c1">START BOOTSTRAP</a>
-                <a href="#c2">PORTFOLIO</a>    
-                <a href="#c3">ABOUT</a>
-                <a href="#c4">CONTACT</a> 
-            </nav>           
+                    <nav class="nav">
+                        <a href="#c2">PORTFOLIO</a>    
+                        <a href="#c3">ABOUT</a>
+                        <a href="#c4">CONTACT</a> 
+                    </nav>   
+            </div>        
         </header>
         <div class="body">
             <div id="c1" class="profile">
@@ -20,26 +24,40 @@
                 </div>
                     <div>
                         <p class="title1">START BOOTSTRAP</p>
+                        <div class="box-star">
+                            <hr>
+                            <i class="fas fa-star fa-2x"></i>
+                        </div>
                         <p class="title2">Web Developer - Graphic Artist - User Experience Designer</p>
                     </div>
             </div>
             <div class="portfolio">
                 <div id="c2">PORTFOLIO</div>
-                    <div class="img"> 
-                        <div class="img-group">
-                            <img src="image/cabin.png"/>
-                            <img src="image/cake.png"/>
-                            <img src="image/circus.png"/>  </div>                       
-                        <div class="img-group">
-                            <img src="image/game.png"/>
-                            <img src="image/safe.png"/>
-                            <img src="image/submarine.png"/>
-                        </div>                                              
-                        
+                    <div class="box-star border-black">
+                        <hr>
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
+                    <div class="container">
+                        <div class="img"> 
+                            <div class="img-group">
+                                <img src="image/cabin.png"/>
+                                <img src="image/cake.png"/>
+                                <img src="image/circus.png"/>  
+                            </div>                       
+                            <div class="img-group">
+                                <img src="image/game.png"/>
+                                <img src="image/safe.png"/>
+                                <img src="image/submarine.png"/>
+                            </div>                                                                      
+                        </div>
                     </div>
             </div>
             <div class="about">
                 <div id="c3">ABOUT</div>
+                    <div class="box-star">
+                        <hr>
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
                 <div class="content">
                     <div class="content1">
                         Freelancer is a free bootstrap theme created by Start 
@@ -53,13 +71,21 @@
                          artist looking to share your projects, this template is 
                          the perfect starting point!
                     </div>
+                    <div class="download">
+                        <a href="#c1">Download Now!</a>
+                    </div>
                 </div>
-                <div class="download">
-                    <a href="#c1">Download Now!</a>
-                </div>
+                
             </div>
             <div class="contact">
                 <div id="c4">CONTACT ME</div>
+                    <div class="box-star border-black">
+                        <hr>
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
+                    <!-- <hr class="star">
+                        <i class="fas fa-star fa-2x"></i>
+                    </hr> -->
                     <div class="input">
                         <input id="name" type="text"  placeholder="Name">
                         <input id="email" type="email"  placeholder="Email adres">
